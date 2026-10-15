@@ -1,4 +1,4 @@
-import readline from 'node:readline/promises'
+const readline = require('node:readline/promises')
 
 function ticketPrice(category) {
     switch (category) {
